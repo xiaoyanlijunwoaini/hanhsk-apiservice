@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!-- 导入Dubbo -->
+    <import resource="classpath:/beans/spring-dubbo.xml"/>
+    <import resource="classpath:/beans/spring-metrics.xml"/>
+
+    <!--<bean id="parameterCheck" class="com.youqu.common.aop.ParameterCheckInterceptor"/>
+    <bean id="youquZkConfig" class="com.ruibo.taogou.service.config.YouquZkConfig"/>
+    <bean id="hotelCommonSwitch" class="com.youqu.common.config.HotelCommonSwitch"/>
+    <bean id="hotelSupplierSwitch" class="com.youqu.common.config.HotelSupplierSwitch"/>
+    <bean id="hotelChannelSwitch" class="com.youqu.common.config.HotelChannelSwitch"/>
+    <bean id="hotelZkDataListener" class="com.youqu.common.config.HotelZkDataListener"/>
+    <bean id="emailNotifier" class="com.youqu.common.notification.EmailNotifier"/>
+    <bean id="springApplicationContextHolder" class="com.youqu.hotel.ari.common.SpringApplicationContextHolder"/>-->
+</beans>
